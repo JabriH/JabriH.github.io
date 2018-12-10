@@ -76,7 +76,7 @@
   // Magnific popup calls
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
-    type: 'image',
+    type: 'image', 'link',
     tLoading: 'Loading image #%curr%...',
     mainClass: 'mfp-img-mobile',
     gallery: {
